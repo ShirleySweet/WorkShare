@@ -6,7 +6,7 @@ from django.conf import settings
 urlpatterns = patterns('',
     # Examples:
     url(r'^$',login),
-    # url(r'^blog/', include('blog.urls')),
+    url(r'^login/', login),
     url(r'^person/$',person),
     url(r'^mission/$',mission),
     url(r'^report/$',daily_report),

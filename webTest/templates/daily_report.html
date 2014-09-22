@@ -1,5 +1,9 @@
 {% extends "base.html" %}
 
+{% block name %}
+    {{ loginName }}
+{% endblock %}
+
 {% block tab %}
     <li><a href="/person/"><span>Person</span></a></li>
 	<li><a href="/mission/"><span>Mission</span></a></li>

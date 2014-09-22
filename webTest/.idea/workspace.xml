@@ -122,98 +122,74 @@
       <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.55479455" vertical-offset="945" max-vertical-offset="10611">
-              <caret line="33" column="55" selection-start-line="33" selection-start-column="55" selection-end-line="33" selection-end-column="55" />
+            <state vertical-scroll-proportion="-1.7739726" vertical-offset="10281" max-vertical-offset="12501">
+              <caret line="359" column="62" selection-start-line="359" selection-start-column="62" selection-end-line="359" selection-end-column="62" />
               <folding>
-                <marker date="1411363877366" expanded="true" signature="546:619" placeholder="SELECT perso..." />
-                <marker date="1411363877366" expanded="true" signature="546:620" placeholder="SELECT perso..." />
-                <marker date="1411363877366" expanded="true" signature="2000:2230" placeholder="insert into ..." />
-                <marker date="1411363877366" expanded="true" signature="2447:2639" placeholder="update perso..." />
-                <marker date="1411363877366" expanded="true" signature="2447:2542" placeholder="update perso..." />
-                <marker date="1411363877366" expanded="true" signature="2447:2561" placeholder="update perso..." />
-                <marker date="1411363877366" expanded="true" signature="2447:2583" placeholder="update perso..." />
-                <marker date="1411363877366" expanded="true" signature="2447:2645" placeholder="update perso..." />
-                <marker date="1411363877366" expanded="true" signature="2447:2646" placeholder="update perso..." />
-                <marker date="1411363877366" expanded="true" signature="3260:3752" placeholder="select p.per..." />
-                <marker date="1411363877366" expanded="true" signature="3829:4144" placeholder="select perso..." />
-                <marker date="1411363877366" expanded="true" signature="5107:5182" placeholder="insert into ..." />
-                <marker date="1411363877366" expanded="true" signature="5204:5344" placeholder="select missi..submission..." />
-                <marker date="1411363877366" expanded="true" signature="5204:5338" placeholder="select missi..submission..." />
-                <marker date="1411363877366" expanded="true" signature="5204:5343" placeholder="select missi..submission..." />
-                <marker date="1411363877366" expanded="true" signature="5204:5337" placeholder="select missi..submission..." />
-                <marker date="1411363877366" expanded="true" signature="5204:5337" placeholder="select missi..submission..." />
-                <marker date="1411363877366" expanded="true" signature="5204:5337" placeholder="select missi..submission..." />
-                <marker date="1411363877366" expanded="true" signature="5430:5601" placeholder="insert into ..." />
-                <marker date="1411363877366" expanded="true" signature="5430:5643" placeholder="insert into ..." />
-                <marker date="1411363877366" expanded="true" signature="5430:5635" placeholder="insert into ..." />
-                <marker date="1411363877366" expanded="true" signature="5430:5578" placeholder="insert into ..." />
-                <marker date="1411363877366" expanded="true" signature="5524:5578" placeholder="select missi..." />
-                <marker date="1411363877366" expanded="true" signature="6117:6228" placeholder="update missi..." />
-                <marker date="1411363877366" expanded="true" signature="6117:6237" placeholder="update missi..." />
-                <marker date="1411363877366" expanded="true" signature="6117:6229" placeholder="update missi..." />
-                <marker date="1411363877366" expanded="true" signature="6117:6229" placeholder="update missi..." />
-                <marker date="1411363877366" expanded="true" signature="6382:6594" placeholder="update submi..." />
-                <marker date="1411363877366" expanded="true" signature="6382:6604" placeholder="update submi..." />
-                <marker date="1411363877366" expanded="true" signature="6965:7064" placeholder="insert into ..." />
-                <marker date="1411363877366" expanded="true" signature="7536:8266" placeholder="select m.mis..." />
-                <marker date="1411363877366" expanded="true" signature="8313:8834" placeholder="select m.mis..." />
-                <marker date="1411363877366" expanded="true" signature="9794:9888" placeholder="insert into ..." />
-                <marker date="1411363877366" expanded="true" signature="9794:9881" placeholder="insert into ..." />
-                <marker date="1411363877366" expanded="true" signature="9794:9889" placeholder="insert into ..." />
-                <marker date="1411363877366" expanded="true" signature="10390:10583" placeholder="insert into ..." />
-                <marker date="1411363877366" expanded="true" signature="10390:10664" placeholder="insert into ..." />
-                <marker date="1411363877366" expanded="true" signature="10390:10665" placeholder="insert into ..." />
-                <marker date="1411363877366" expanded="true" signature="10561:10583" placeholder="select max(r..." />
-                <marker date="1411363877366" expanded="true" signature="11034:11475" placeholder="select d.rep..daily_report..." />
-                <marker date="1411363877366" expanded="true" signature="11730:12389" placeholder="select d.rep..daily_report..." />
-                <marker date="1411363877366" expanded="true" signature="12467:12900" placeholder="select d.rep..daily_report..." />
-                <marker date="1411363877366" expanded="true" signature="13623:13789" placeholder="select `name..." />
-                <marker date="1411363877366" expanded="true" signature="14017:14128" placeholder="select perso..." />
-                <marker date="1411363877366" expanded="true" signature="14423:14456" placeholder="select perso..person..." />
-                <marker date="1411363877366" expanded="true" signature="14702:14939" placeholder="select s.mis..submission..." />
-                <marker date="1411363877366" expanded="true" signature="15200:15370" placeholder="select `name..." />
+                <marker date="1411383639741" expanded="true" signature="546:619" placeholder="SELECT perso..." />
+                <marker date="1411383639741" expanded="true" signature="546:620" placeholder="SELECT perso..." />
+                <marker date="1411383639741" expanded="true" signature="2212:2442" placeholder="insert into ..." />
+                <marker date="1411383639741" expanded="true" signature="2659:2851" placeholder="update perso..." />
+                <marker date="1411383639741" expanded="true" signature="2659:2754" placeholder="update perso..." />
+                <marker date="1411383639741" expanded="true" signature="2659:2773" placeholder="update perso..." />
+                <marker date="1411383639741" expanded="true" signature="2659:2795" placeholder="update perso..." />
+                <marker date="1411383639741" expanded="true" signature="2659:2857" placeholder="update perso..." />
+                <marker date="1411383639741" expanded="true" signature="2659:2858" placeholder="update perso..." />
+                <marker date="1411383639741" expanded="true" signature="3428:3920" placeholder="select p.per..." />
+                <marker date="1411383639741" expanded="true" signature="4178:4511" placeholder="select perso..." />
+                <marker date="1411383639741" expanded="true" signature="4178:4512" placeholder="select perso..." />
+                <marker date="1411383639741" expanded="true" signature="4581:4896" placeholder="select perso..." />
+                <marker date="1411383639741" expanded="true" signature="6151:6226" placeholder="insert into ..." />
+                <marker date="1411383639741" expanded="true" signature="6248:6388" placeholder="select missi..submission..." />
+                <marker date="1411383639741" expanded="true" signature="6248:6382" placeholder="select missi..submission..." />
+                <marker date="1411383639741" expanded="true" signature="6248:6387" placeholder="select missi..submission..." />
+                <marker date="1411383639741" expanded="true" signature="6248:6381" placeholder="select missi..submission..." />
+                <marker date="1411383639741" expanded="true" signature="6248:6381" placeholder="select missi..submission..." />
+                <marker date="1411383639741" expanded="true" signature="6248:6381" placeholder="select missi..submission..." />
+                <marker date="1411383639741" expanded="true" signature="6248:6381" placeholder="select missi..submission..." />
+                <marker date="1411383639741" expanded="true" signature="6248:6381" placeholder="select missi..submission..." />
+                <marker date="1411383639741" expanded="true" signature="6474:6645" placeholder="insert into ..." />
+                <marker date="1411383639741" expanded="true" signature="6474:6687" placeholder="insert into ..." />
+                <marker date="1411383639741" expanded="true" signature="6474:6679" placeholder="insert into ..." />
+                <marker date="1411383639741" expanded="true" signature="6474:6622" placeholder="insert into ..." />
+                <marker date="1411383639741" expanded="true" signature="6568:6622" placeholder="select missi..." />
+                <marker date="1411383639741" expanded="true" signature="7161:7272" placeholder="update missi..." />
+                <marker date="1411383639741" expanded="true" signature="7161:7281" placeholder="update missi..." />
+                <marker date="1411383639741" expanded="true" signature="7161:7273" placeholder="update missi..." />
+                <marker date="1411383639741" expanded="true" signature="7161:7273" placeholder="update missi..." />
+                <marker date="1411383639741" expanded="true" signature="7161:7273" placeholder="update missi..." />
+                <marker date="1411383639741" expanded="true" signature="7161:7273" placeholder="update missi..." />
+                <marker date="1411383639741" expanded="true" signature="7426:7638" placeholder="update submi..." />
+                <marker date="1411383639741" expanded="true" signature="7426:7648" placeholder="update submi..." />
+                <marker date="1411383639741" expanded="true" signature="8009:8108" placeholder="insert into ..." />
+                <marker date="1411383639741" expanded="true" signature="8580:9310" placeholder="select m.mis..." />
+                <marker date="1411383639741" expanded="true" signature="9536:10266" placeholder="select m.mis..." />
+                <marker date="1411383639741" expanded="true" signature="10321:10842" placeholder="select m.mis..." />
+                <marker date="1411383639741" expanded="true" signature="12102:12196" placeholder="insert into ..." />
+                <marker date="1411383639741" expanded="true" signature="12102:12189" placeholder="insert into ..." />
+                <marker date="1411383639741" expanded="true" signature="12102:12197" placeholder="insert into ..." />
+                <marker date="1411383639741" expanded="true" signature="12698:12891" placeholder="insert into ..." />
+                <marker date="1411383639741" expanded="true" signature="12698:12972" placeholder="insert into ..." />
+                <marker date="1411383639741" expanded="true" signature="12698:12973" placeholder="insert into ..." />
+                <marker date="1411383639741" expanded="true" signature="12869:12891" placeholder="select max(r..." />
+                <marker date="1411383639741" expanded="true" signature="13342:13783" placeholder="select d.rep..daily_report..." />
+                <marker date="1411383639741" expanded="true" signature="14038:14697" placeholder="select d.rep..daily_report..." />
+                <marker date="1411383639741" expanded="true" signature="14951:15424" placeholder="select d.rep..daily_report..." />
+                <marker date="1411383639741" expanded="true" signature="15487:15920" placeholder="select d.rep..daily_report..." />
+                <marker date="1411383639741" expanded="true" signature="16765:16931" placeholder="select `name..." />
+                <marker date="1411383639741" expanded="true" signature="17159:17270" placeholder="select perso..." />
+                <marker date="1411383639741" expanded="true" signature="17565:17598" placeholder="select perso..person..." />
+                <marker date="1411383639741" expanded="true" signature="17844:18081" placeholder="select s.mis..submission..." />
+                <marker date="1411383639741" expanded="true" signature="18342:18512" placeholder="select `name..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mission.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/mission.html">
+      <file leaf-file-name="person.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/person.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.5" vertical-offset="1701" max-vertical-offset="4644">
-              <caret line="73" column="20" selection-start-line="73" selection-start-column="20" selection-end-line="73" selection-end-column="73" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webTest/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="486" max-vertical-offset="2619">
-              <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webTest/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="594">
-              <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-              <folding>
-                <element signature="e#0#51#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/login.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.5277777" vertical-offset="17" max-vertical-offset="621">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            <state vertical-scroll-proportion="-8.25" vertical-offset="0" max-vertical-offset="3726">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -233,18 +209,18 @@
         <option value="$PROJECT_DIR$/web/models.py" />
         <option value="$PROJECT_DIR$/templates/edit.html" />
         <option value="$PROJECT_DIR$/web/form.py" />
-        <option value="$PROJECT_DIR$/templates/base.html" />
         <option value="$PROJECT_DIR$/static/style.css" />
         <option value="$PROJECT_DIR$/web/forms.py" />
         <option value="$PROJECT_DIR$/static/web.js" />
         <option value="$PROJECT_DIR$/templates/404.html" />
-        <option value="$PROJECT_DIR$/templates/daily_report.html" />
-        <option value="$PROJECT_DIR$/templates/person.html" />
         <option value="$PROJECT_DIR$/templates/500.html" />
-        <option value="$PROJECT_DIR$/templates/mission.html" />
-        <option value="$PROJECT_DIR$/webTest/urls.py" />
         <option value="$PROJECT_DIR$/templates/login.html" />
         <option value="$PROJECT_DIR$/webTest/settings.py" />
+        <option value="$PROJECT_DIR$/templates/person.html" />
+        <option value="$PROJECT_DIR$/templates/base.html" />
+        <option value="$PROJECT_DIR$/webTest/urls.py" />
+        <option value="$PROJECT_DIR$/templates/mission.html" />
+        <option value="$PROJECT_DIR$/templates/daily_report.html" />
         <option value="$PROJECT_DIR$/web/views.py" />
       </list>
     </option>
@@ -309,21 +285,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="webTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
+              <option name="myItemId" value="tmp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -694,7 +656,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959612" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32739726" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24605678" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24605678" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -775,53 +737,61 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="4180" max-vertical-offset="6783">
           <caret line="225" column="20" selection-start-line="225" selection-start-column="20" selection-end-line="225" selection-end-column="20" />
           <folding>
-            <marker date="1411363877366" expanded="true" signature="546:619" placeholder="SELECT perso..." />
-            <marker date="1411363877366" expanded="true" signature="546:620" placeholder="SELECT perso..." />
-            <marker date="1411363877366" expanded="true" signature="2000:2230" placeholder="insert into ..." />
-            <marker date="1411363877366" expanded="true" signature="2447:2639" placeholder="update perso..." />
-            <marker date="1411363877366" expanded="true" signature="2447:2542" placeholder="update perso..." />
-            <marker date="1411363877366" expanded="true" signature="2447:2561" placeholder="update perso..." />
-            <marker date="1411363877366" expanded="true" signature="2447:2583" placeholder="update perso..." />
-            <marker date="1411363877366" expanded="true" signature="2447:2645" placeholder="update perso..." />
-            <marker date="1411363877366" expanded="true" signature="2447:2646" placeholder="update perso..." />
-            <marker date="1411363877366" expanded="true" signature="3260:3752" placeholder="select p.per..." />
-            <marker date="1411363877366" expanded="true" signature="3829:4144" placeholder="select perso..." />
-            <marker date="1411363877366" expanded="true" signature="5107:5182" placeholder="insert into ..." />
-            <marker date="1411363877366" expanded="true" signature="5204:5344" placeholder="select missi..submission..." />
-            <marker date="1411363877366" expanded="true" signature="5204:5338" placeholder="select missi..submission..." />
-            <marker date="1411363877366" expanded="true" signature="5204:5343" placeholder="select missi..submission..." />
-            <marker date="1411363877366" expanded="true" signature="5204:5337" placeholder="select missi..submission..." />
-            <marker date="1411363877366" expanded="true" signature="5204:5337" placeholder="select missi..submission..." />
-            <marker date="1411363877366" expanded="true" signature="5204:5337" placeholder="select missi..submission..." />
-            <marker date="1411363877366" expanded="true" signature="5430:5601" placeholder="insert into ..." />
-            <marker date="1411363877366" expanded="true" signature="5430:5643" placeholder="insert into ..." />
-            <marker date="1411363877366" expanded="true" signature="5430:5635" placeholder="insert into ..." />
-            <marker date="1411363877366" expanded="true" signature="5430:5578" placeholder="insert into ..." />
-            <marker date="1411363877366" expanded="true" signature="5524:5578" placeholder="select missi..." />
-            <marker date="1411363877366" expanded="true" signature="6117:6228" placeholder="update missi..." />
-            <marker date="1411363877366" expanded="true" signature="6117:6237" placeholder="update missi..." />
-            <marker date="1411363877366" expanded="true" signature="6117:6229" placeholder="update missi..." />
-            <marker date="1411363877366" expanded="true" signature="6117:6229" placeholder="update missi..." />
-            <marker date="1411363877366" expanded="true" signature="6382:6594" placeholder="update submi..." />
-            <marker date="1411363877366" expanded="true" signature="6382:6604" placeholder="update submi..." />
-            <marker date="1411363877366" expanded="true" signature="6965:7064" placeholder="insert into ..." />
-            <marker date="1411363877366" expanded="true" signature="7536:8266" placeholder="select m.mis..." />
-            <marker date="1411363877366" expanded="true" signature="8313:8834" placeholder="select m.mis..." />
-            <marker date="1411363877366" expanded="true" signature="9794:9888" placeholder="insert into ..." />
-            <marker date="1411363877366" expanded="true" signature="9794:9881" placeholder="insert into ..." />
-            <marker date="1411363877366" expanded="true" signature="9794:9889" placeholder="insert into ..." />
-            <marker date="1411363877366" expanded="true" signature="10390:10583" placeholder="insert into ..." />
-            <marker date="1411363877366" expanded="true" signature="10390:10664" placeholder="insert into ..." />
-            <marker date="1411363877366" expanded="true" signature="10390:10665" placeholder="insert into ..." />
-            <marker date="1411363877366" expanded="true" signature="10561:10583" placeholder="select max(r..." />
-            <marker date="1411363877366" expanded="true" signature="11034:11475" placeholder="select d.rep..daily_report..." />
-            <marker date="1411363877366" expanded="true" signature="11730:12389" placeholder="select d.rep..daily_report..." />
-            <marker date="1411363877366" expanded="true" signature="12467:12900" placeholder="select d.rep..daily_report..." />
-            <marker date="1411363877366" expanded="true" signature="13623:13789" placeholder="select `name..." />
-            <marker date="1411363877366" expanded="true" signature="14017:14128" placeholder="select perso..." />
-            <marker date="1411363877366" expanded="true" signature="14423:14456" placeholder="select perso..person..." />
-            <marker date="1411363877366" expanded="true" signature="14702:14939" placeholder="select s.mis..submission..." />
-            <marker date="1411363877366" expanded="true" signature="15200:15370" placeholder="select `name..." />
+            <marker date="1411383639741" expanded="true" signature="546:619" placeholder="SELECT perso..." />
+            <marker date="1411383639741" expanded="true" signature="546:620" placeholder="SELECT perso..." />
+            <marker date="1411383639741" expanded="true" signature="2212:2442" placeholder="insert into ..." />
+            <marker date="1411383639741" expanded="true" signature="2659:2851" placeholder="update perso..." />
+            <marker date="1411383639741" expanded="true" signature="2659:2754" placeholder="update perso..." />
+            <marker date="1411383639741" expanded="true" signature="2659:2773" placeholder="update perso..." />
+            <marker date="1411383639741" expanded="true" signature="2659:2795" placeholder="update perso..." />
+            <marker date="1411383639741" expanded="true" signature="2659:2857" placeholder="update perso..." />
+            <marker date="1411383639741" expanded="true" signature="2659:2858" placeholder="update perso..." />
+            <marker date="1411383639741" expanded="true" signature="3428:3920" placeholder="select p.per..." />
+            <marker date="1411383639741" expanded="true" signature="4178:4511" placeholder="select perso..." />
+            <marker date="1411383639741" expanded="true" signature="4178:4512" placeholder="select perso..." />
+            <marker date="1411383639741" expanded="true" signature="4581:4896" placeholder="select perso..." />
+            <marker date="1411383639741" expanded="true" signature="6151:6226" placeholder="insert into ..." />
+            <marker date="1411383639741" expanded="true" signature="6248:6388" placeholder="select missi..submission..." />
+            <marker date="1411383639741" expanded="true" signature="6248:6382" placeholder="select missi..submission..." />
+            <marker date="1411383639741" expanded="true" signature="6248:6387" placeholder="select missi..submission..." />
+            <marker date="1411383639741" expanded="true" signature="6248:6381" placeholder="select missi..submission..." />
+            <marker date="1411383639741" expanded="true" signature="6248:6381" placeholder="select missi..submission..." />
+            <marker date="1411383639741" expanded="true" signature="6248:6381" placeholder="select missi..submission..." />
+            <marker date="1411383639741" expanded="true" signature="6248:6381" placeholder="select missi..submission..." />
+            <marker date="1411383639741" expanded="true" signature="6248:6381" placeholder="select missi..submission..." />
+            <marker date="1411383639741" expanded="true" signature="6474:6645" placeholder="insert into ..." />
+            <marker date="1411383639741" expanded="true" signature="6474:6687" placeholder="insert into ..." />
+            <marker date="1411383639741" expanded="true" signature="6474:6679" placeholder="insert into ..." />
+            <marker date="1411383639741" expanded="true" signature="6474:6622" placeholder="insert into ..." />
+            <marker date="1411383639741" expanded="true" signature="6568:6622" placeholder="select missi..." />
+            <marker date="1411383639741" expanded="true" signature="7161:7272" placeholder="update missi..." />
+            <marker date="1411383639741" expanded="true" signature="7161:7281" placeholder="update missi..." />
+            <marker date="1411383639741" expanded="true" signature="7161:7273" placeholder="update missi..." />
+            <marker date="1411383639741" expanded="true" signature="7161:7273" placeholder="update missi..." />
+            <marker date="1411383639741" expanded="true" signature="7161:7273" placeholder="update missi..." />
+            <marker date="1411383639741" expanded="true" signature="7161:7273" placeholder="update missi..." />
+            <marker date="1411383639741" expanded="true" signature="7426:7638" placeholder="update submi..." />
+            <marker date="1411383639741" expanded="true" signature="7426:7648" placeholder="update submi..." />
+            <marker date="1411383639741" expanded="true" signature="8009:8108" placeholder="insert into ..." />
+            <marker date="1411383639741" expanded="true" signature="8580:9310" placeholder="select m.mis..." />
+            <marker date="1411383639741" expanded="true" signature="9536:10266" placeholder="select m.mis..." />
+            <marker date="1411383639741" expanded="true" signature="10321:10842" placeholder="select m.mis..." />
+            <marker date="1411383639741" expanded="true" signature="12102:12196" placeholder="insert into ..." />
+            <marker date="1411383639741" expanded="true" signature="12102:12189" placeholder="insert into ..." />
+            <marker date="1411383639741" expanded="true" signature="12102:12197" placeholder="insert into ..." />
+            <marker date="1411383639741" expanded="true" signature="12698:12891" placeholder="insert into ..." />
+            <marker date="1411383639741" expanded="true" signature="12698:12972" placeholder="insert into ..." />
+            <marker date="1411383639741" expanded="true" signature="12698:12973" placeholder="insert into ..." />
+            <marker date="1411383639741" expanded="true" signature="12869:12891" placeholder="select max(r..." />
+            <marker date="1411383639741" expanded="true" signature="13342:13783" placeholder="select d.rep..daily_report..." />
+            <marker date="1411383639741" expanded="true" signature="14038:14697" placeholder="select d.rep..daily_report..." />
+            <marker date="1411383639741" expanded="true" signature="14951:15424" placeholder="select d.rep..daily_report..." />
+            <marker date="1411383639741" expanded="true" signature="15487:15920" placeholder="select d.rep..daily_report..." />
+            <marker date="1411383639741" expanded="true" signature="16765:16931" placeholder="select `name..." />
+            <marker date="1411383639741" expanded="true" signature="17159:17270" placeholder="select perso..." />
+            <marker date="1411383639741" expanded="true" signature="17565:17598" placeholder="select perso..person..." />
+            <marker date="1411383639741" expanded="true" signature="17844:18081" placeholder="select s.mis..submission..." />
+            <marker date="1411383639741" expanded="true" signature="18342:18512" placeholder="select `name..." />
           </folding>
         </state>
       </provider>
@@ -1055,13 +1025,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28152493" vertical-offset="48" max-vertical-offset="1632">
-          <caret line="6" column="58" selection-start-line="6" selection-start-column="58" selection-end-line="6" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/forms.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="3" max-vertical-offset="576">
@@ -1074,20 +1037,6 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="1512" max-vertical-offset="2856">
           <caret line="111" column="60" selection-start-line="111" selection-start-column="60" selection-end-line="111" selection-end-column="60" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/person.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.75" vertical-offset="0" max-vertical-offset="3618">
-          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/daily_report.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5" vertical-offset="0" max-vertical-offset="2538">
-          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -1112,92 +1061,132 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/mission.html">
+    <entry file="file://$PROJECT_DIR$/webTest/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.5" vertical-offset="1701" max-vertical-offset="4644">
-          <caret line="73" column="20" selection-start-line="73" selection-start-column="20" selection-end-line="73" selection-end-column="73" />
+        <state vertical-scroll-proportion="0.34146342" vertical-offset="1871" max-vertical-offset="2727">
+          <caret line="75" column="65" selection-start-line="75" selection-start-column="65" selection-end-line="75" selection-end-column="65" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/webTest/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="594">
-          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+        <state vertical-scroll-proportion="0.49315068" vertical-offset="0" max-vertical-offset="594">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
           <folding>
             <element signature="e#0#51#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/mission.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20149253" vertical-offset="0" max-vertical-offset="4752">
+          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/daily_report.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20149253" vertical-offset="0" max-vertical-offset="2646">
+          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.80597013" vertical-offset="324" max-vertical-offset="1917">
+          <caret line="24" column="45" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tmp/sessionidxwma451vmsygygmtgjtqf5gywzxeo12u">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="451">
+          <caret line="0" column="60" selection-start-line="0" selection-start-column="60" selection-end-line="0" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.5277777" vertical-offset="17" max-vertical-offset="621">
+        <state vertical-scroll-proportion="0.26024097" vertical-offset="0" max-vertical-offset="621">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webTest/settings.py">
+    <entry file="file://$PROJECT_DIR$/templates/person.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="486" max-vertical-offset="2619">
-          <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
+        <state vertical-scroll-proportion="-8.25" vertical-offset="0" max-vertical-offset="3726">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.55479455" vertical-offset="945" max-vertical-offset="10611">
-          <caret line="33" column="55" selection-start-line="33" selection-start-column="55" selection-end-line="33" selection-end-column="55" />
+        <state vertical-scroll-proportion="-1.7739726" vertical-offset="10281" max-vertical-offset="12501">
+          <caret line="359" column="62" selection-start-line="359" selection-start-column="62" selection-end-line="359" selection-end-column="62" />
           <folding>
-            <marker date="1411363877366" expanded="true" signature="546:619" placeholder="SELECT perso..." />
-            <marker date="1411363877366" expanded="true" signature="546:620" placeholder="SELECT perso..." />
-            <marker date="1411363877366" expanded="true" signature="2000:2230" placeholder="insert into ..." />
-            <marker date="1411363877366" expanded="true" signature="2447:2639" placeholder="update perso..." />
-            <marker date="1411363877366" expanded="true" signature="2447:2542" placeholder="update perso..." />
-            <marker date="1411363877366" expanded="true" signature="2447:2561" placeholder="update perso..." />
-            <marker date="1411363877366" expanded="true" signature="2447:2583" placeholder="update perso..." />
-            <marker date="1411363877366" expanded="true" signature="2447:2645" placeholder="update perso..." />
-            <marker date="1411363877366" expanded="true" signature="2447:2646" placeholder="update perso..." />
-            <marker date="1411363877366" expanded="true" signature="3260:3752" placeholder="select p.per..." />
-            <marker date="1411363877366" expanded="true" signature="3829:4144" placeholder="select perso..." />
-            <marker date="1411363877366" expanded="true" signature="5107:5182" placeholder="insert into ..." />
-            <marker date="1411363877366" expanded="true" signature="5204:5344" placeholder="select missi..submission..." />
-            <marker date="1411363877366" expanded="true" signature="5204:5338" placeholder="select missi..submission..." />
-            <marker date="1411363877366" expanded="true" signature="5204:5343" placeholder="select missi..submission..." />
-            <marker date="1411363877366" expanded="true" signature="5204:5337" placeholder="select missi..submission..." />
-            <marker date="1411363877366" expanded="true" signature="5204:5337" placeholder="select missi..submission..." />
-            <marker date="1411363877366" expanded="true" signature="5204:5337" placeholder="select missi..submission..." />
-            <marker date="1411363877366" expanded="true" signature="5430:5601" placeholder="insert into ..." />
-            <marker date="1411363877366" expanded="true" signature="5430:5643" placeholder="insert into ..." />
-            <marker date="1411363877366" expanded="true" signature="5430:5635" placeholder="insert into ..." />
-            <marker date="1411363877366" expanded="true" signature="5430:5578" placeholder="insert into ..." />
-            <marker date="1411363877366" expanded="true" signature="5524:5578" placeholder="select missi..." />
-            <marker date="1411363877366" expanded="true" signature="6117:6228" placeholder="update missi..." />
-            <marker date="1411363877366" expanded="true" signature="6117:6237" placeholder="update missi..." />
-            <marker date="1411363877366" expanded="true" signature="6117:6229" placeholder="update missi..." />
-            <marker date="1411363877366" expanded="true" signature="6117:6229" placeholder="update missi..." />
-            <marker date="1411363877366" expanded="true" signature="6382:6594" placeholder="update submi..." />
-            <marker date="1411363877366" expanded="true" signature="6382:6604" placeholder="update submi..." />
-            <marker date="1411363877366" expanded="true" signature="6965:7064" placeholder="insert into ..." />
-            <marker date="1411363877366" expanded="true" signature="7536:8266" placeholder="select m.mis..." />
-            <marker date="1411363877366" expanded="true" signature="8313:8834" placeholder="select m.mis..." />
-            <marker date="1411363877366" expanded="true" signature="9794:9888" placeholder="insert into ..." />
-            <marker date="1411363877366" expanded="true" signature="9794:9881" placeholder="insert into ..." />
-            <marker date="1411363877366" expanded="true" signature="9794:9889" placeholder="insert into ..." />
-            <marker date="1411363877366" expanded="true" signature="10390:10583" placeholder="insert into ..." />
-            <marker date="1411363877366" expanded="true" signature="10390:10664" placeholder="insert into ..." />
-            <marker date="1411363877366" expanded="true" signature="10390:10665" placeholder="insert into ..." />
-            <marker date="1411363877366" expanded="true" signature="10561:10583" placeholder="select max(r..." />
-            <marker date="1411363877366" expanded="true" signature="11034:11475" placeholder="select d.rep..daily_report..." />
-            <marker date="1411363877366" expanded="true" signature="11730:12389" placeholder="select d.rep..daily_report..." />
-            <marker date="1411363877366" expanded="true" signature="12467:12900" placeholder="select d.rep..daily_report..." />
-            <marker date="1411363877366" expanded="true" signature="13623:13789" placeholder="select `name..." />
-            <marker date="1411363877366" expanded="true" signature="14017:14128" placeholder="select perso..." />
-            <marker date="1411363877366" expanded="true" signature="14423:14456" placeholder="select perso..person..." />
-            <marker date="1411363877366" expanded="true" signature="14702:14939" placeholder="select s.mis..submission..." />
-            <marker date="1411363877366" expanded="true" signature="15200:15370" placeholder="select `name..." />
+            <marker date="1411383639741" expanded="true" signature="546:619" placeholder="SELECT perso..." />
+            <marker date="1411383639741" expanded="true" signature="546:620" placeholder="SELECT perso..." />
+            <marker date="1411383639741" expanded="true" signature="2212:2442" placeholder="insert into ..." />
+            <marker date="1411383639741" expanded="true" signature="2659:2851" placeholder="update perso..." />
+            <marker date="1411383639741" expanded="true" signature="2659:2754" placeholder="update perso..." />
+            <marker date="1411383639741" expanded="true" signature="2659:2773" placeholder="update perso..." />
+            <marker date="1411383639741" expanded="true" signature="2659:2795" placeholder="update perso..." />
+            <marker date="1411383639741" expanded="true" signature="2659:2857" placeholder="update perso..." />
+            <marker date="1411383639741" expanded="true" signature="2659:2858" placeholder="update perso..." />
+            <marker date="1411383639741" expanded="true" signature="3428:3920" placeholder="select p.per..." />
+            <marker date="1411383639741" expanded="true" signature="4178:4511" placeholder="select perso..." />
+            <marker date="1411383639741" expanded="true" signature="4178:4512" placeholder="select perso..." />
+            <marker date="1411383639741" expanded="true" signature="4581:4896" placeholder="select perso..." />
+            <marker date="1411383639741" expanded="true" signature="6151:6226" placeholder="insert into ..." />
+            <marker date="1411383639741" expanded="true" signature="6248:6388" placeholder="select missi..submission..." />
+            <marker date="1411383639741" expanded="true" signature="6248:6382" placeholder="select missi..submission..." />
+            <marker date="1411383639741" expanded="true" signature="6248:6387" placeholder="select missi..submission..." />
+            <marker date="1411383639741" expanded="true" signature="6248:6381" placeholder="select missi..submission..." />
+            <marker date="1411383639741" expanded="true" signature="6248:6381" placeholder="select missi..submission..." />
+            <marker date="1411383639741" expanded="true" signature="6248:6381" placeholder="select missi..submission..." />
+            <marker date="1411383639741" expanded="true" signature="6248:6381" placeholder="select missi..submission..." />
+            <marker date="1411383639741" expanded="true" signature="6248:6381" placeholder="select missi..submission..." />
+            <marker date="1411383639741" expanded="true" signature="6474:6645" placeholder="insert into ..." />
+            <marker date="1411383639741" expanded="true" signature="6474:6687" placeholder="insert into ..." />
+            <marker date="1411383639741" expanded="true" signature="6474:6679" placeholder="insert into ..." />
+            <marker date="1411383639741" expanded="true" signature="6474:6622" placeholder="insert into ..." />
+            <marker date="1411383639741" expanded="true" signature="6568:6622" placeholder="select missi..." />
+            <marker date="1411383639741" expanded="true" signature="7161:7272" placeholder="update missi..." />
+            <marker date="1411383639741" expanded="true" signature="7161:7281" placeholder="update missi..." />
+            <marker date="1411383639741" expanded="true" signature="7161:7273" placeholder="update missi..." />
+            <marker date="1411383639741" expanded="true" signature="7161:7273" placeholder="update missi..." />
+            <marker date="1411383639741" expanded="true" signature="7161:7273" placeholder="update missi..." />
+            <marker date="1411383639741" expanded="true" signature="7161:7273" placeholder="update missi..." />
+            <marker date="1411383639741" expanded="true" signature="7426:7638" placeholder="update submi..." />
+            <marker date="1411383639741" expanded="true" signature="7426:7648" placeholder="update submi..." />
+            <marker date="1411383639741" expanded="true" signature="8009:8108" placeholder="insert into ..." />
+            <marker date="1411383639741" expanded="true" signature="8580:9310" placeholder="select m.mis..." />
+            <marker date="1411383639741" expanded="true" signature="9536:10266" placeholder="select m.mis..." />
+            <marker date="1411383639741" expanded="true" signature="10321:10842" placeholder="select m.mis..." />
+            <marker date="1411383639741" expanded="true" signature="12102:12196" placeholder="insert into ..." />
+            <marker date="1411383639741" expanded="true" signature="12102:12189" placeholder="insert into ..." />
+            <marker date="1411383639741" expanded="true" signature="12102:12197" placeholder="insert into ..." />
+            <marker date="1411383639741" expanded="true" signature="12698:12891" placeholder="insert into ..." />
+            <marker date="1411383639741" expanded="true" signature="12698:12972" placeholder="insert into ..." />
+            <marker date="1411383639741" expanded="true" signature="12698:12973" placeholder="insert into ..." />
+            <marker date="1411383639741" expanded="true" signature="12869:12891" placeholder="select max(r..." />
+            <marker date="1411383639741" expanded="true" signature="13342:13783" placeholder="select d.rep..daily_report..." />
+            <marker date="1411383639741" expanded="true" signature="14038:14697" placeholder="select d.rep..daily_report..." />
+            <marker date="1411383639741" expanded="true" signature="14951:15424" placeholder="select d.rep..daily_report..." />
+            <marker date="1411383639741" expanded="true" signature="15487:15920" placeholder="select d.rep..daily_report..." />
+            <marker date="1411383639741" expanded="true" signature="16765:16931" placeholder="select `name..." />
+            <marker date="1411383639741" expanded="true" signature="17159:17270" placeholder="select perso..." />
+            <marker date="1411383639741" expanded="true" signature="17565:17598" placeholder="select perso..person..." />
+            <marker date="1411383639741" expanded="true" signature="17844:18081" placeholder="select s.mis..submission..." />
+            <marker date="1411383639741" expanded="true" signature="18342:18512" placeholder="select `name..." />
           </folding>
         </state>
       </provider>

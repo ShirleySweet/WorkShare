@@ -71,6 +71,10 @@ DATABASES = {
    }
 }
 
+#session settings
+SESSION_ENGINE='django.contrib.sessions.backends.file'
+SESSION_FILE_PATH=os.path.join(os.path.dirname(__file__), '../tmp/').replace('\\','/')
+
 # Internationalization
 # https://docs.djangoproject.com/en/1.6/topics/i18n/
 
