@@ -57,13 +57,14 @@ def person(Request):
         department = Request.POST.get('department','')
         title = Request.POST.get('title','')
         remark = Request.POST.get('remark','')
+        password = Request.POST.get('password','')
         if status == '':
             sql='''insert into person(`name`,`password`,department,
                      title,role,`status`,remark)
-                     values('%(name)s',md5('123456'),'%(department)s',
+                     values('%(name)s',md5('%(password)s'),'%(department)s',
                      '%(title)s','employee','1','%(remark)s');
                 '''%{'name':name,'department':department,
-                 'title':title,'remark':remark}
+                 'title':title,'remark':remark,'password':password}
         else:
             uid = Request.POST.get('id','')
             if uid != '':
@@ -111,7 +112,7 @@ def person(Request):
                 ) and p.person_id = %(pid)d;
             '''%{'pid':pid}
         else:
-           sql='''select person_id,p.name `name`,department,title,remark,p.`status`,c.name position
+            sql='''select person_id,p.name `name`,department,title,remark,p.`status`,c.name position
                 from person p join `code` c
                 on p.`status`=c.`value`
                 where c.key=
@@ -132,12 +133,14 @@ def person(Request):
     statusList = get_person_status(cursor)
     cursor.close()
     form = NewPerson()
+    r = Request.session['role']
 
     return render_to_response('person.html',
                                   {'personlist':list,
                                    'statuslist':statusList,
                                    'form':form,
-                                   'loginName':lname})
+                                   'loginName':lname,
+                                   'role':r})
 
 def mission(Request):
     if 'loginName' in Request.session and Request.session['loginName'] != '':
@@ -271,6 +274,7 @@ def mission(Request):
 
     form = NewMission()
     subform = NewSubmission()
+    r = Request.session['role']
 
     return render_to_response('mission.html',
                               {"missionlist":list,
@@ -278,7 +282,8 @@ def mission(Request):
                                "personList":plist,
                                "form":form,
                                "subform":subform,
-                               "loginName":lname})
+                               "loginName":lname,
+                               "role":r})
 
 def daily_report(Request):
     if 'loginName' in Request.session and Request.session['loginName'] != '':
@@ -353,27 +358,30 @@ def daily_report(Request):
         else:
             if 'role' in Request.session and Request.session['role'] != '':
                 role = Request.session['role']
-                id = int(Request.session['pid'])
-                sql='''select d.report_id,r.report_order_id,d.report_date,
-	                r.content,r.mission_id,r.mission_order_id,
-	                p.name,m.mission_name
-	                from daily_report d join report_describe r
-	                on d.report_id = r.report_id
-	                join person p on p.person_id = d.person_id
-	                join mission m on m.mission_id=r.mission_id
-	                where p.person_id = %d
-	                order by d.report_id,r.report_order_id;
-	            '''%id
+                if role == "employee":
+                    id = int(Request.session['pid'])
+                    sql='''select d.report_id,r.report_order_id,d.report_date,
+	                    r.content,r.mission_id,r.mission_order_id,
+	                    p.name,m.mission_name
+	                    from daily_report d join report_describe r
+	                    on d.report_id = r.report_id
+	                    join person p on p.person_id = d.person_id
+	                    join mission m on m.mission_id=r.mission_id
+	                    where p.person_id = %d
+	                    order by d.report_id,r.report_order_id;
+	                '''%id
+                else:
+                    sql='''select d.report_id,r.report_order_id,d.report_date,
+	                    r.content,r.mission_id,r.mission_order_id,
+	                    p.name,m.mission_name
+	                    from daily_report d join report_describe r
+	                    on d.report_id = r.report_id
+                        join person p on p.person_id = d.person_id
+	                    join mission m on m.mission_id=r.mission_id
+	                    order by d.report_id,r.report_order_id;
+	                '''
             else:
-                sql='''select d.report_id,r.report_order_id,d.report_date,
-	                r.content,r.mission_id,r.mission_order_id,
-	                p.name,m.mission_name
-	                from daily_report d join report_describe r
-	                on d.report_id = r.report_id
-	                join person p on p.person_id = d.person_id
-	                join mission m on m.mission_id=r.mission_id
-	                order by d.report_id,r.report_order_id;
-	            '''
+               return HttpResponseRedirect('/login/')
 
     cursor.execute(sql)
     reportList = cursor.fetchall()
@@ -384,9 +392,10 @@ def daily_report(Request):
 
     allperson = get_all_person(cursor)
     cursor.close()
+    pid = Request.session['pid']
 
     return render_to_response('daily_report.html',{"reportlist":list,
-                                                   "person":allperson,
+                                                   "pid":pid,
                                                    "loginName":lname})
 
 def load(Request):

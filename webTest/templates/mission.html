@@ -17,10 +17,12 @@
 		<div class="box-head">
 			<h2 class="left">Person Information</h2>
 			<div class="right">
+                {% if role == 'admin' %}
 				<label>New Mission</label>
 					<input type="submit" class="button" value="new" onclick=show("mission") />
-				</div>
-			</div>
+				{% endif %}
+            </div>
+		</div>
 		<!-- End Box Head -->
 
 			<!-- Table -->
@@ -35,7 +37,7 @@
                         <th>Content</th>
                         <th>Remark</th>
                         <th>Link</th>
-                        <th width="110" class="ac">Content Control></th>
+                        <th width="110" class="ac">Content Control</th>
                     </tr>
                     {% for m in missionlist %}
                     <tr>

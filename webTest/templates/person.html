@@ -17,8 +17,10 @@
 		<div class="box-head">
 			<h2 class="left">Person Information</h2>
 			<div class="right">
+                {% if role == 'admin' %}
 				<label>New Person</label>
 					<input type="submit" class="button" value="new" onclick=show("person") />
+                {% endif %}
 				</div>
 			</div>
 		<!-- End Box Head -->
@@ -105,7 +107,7 @@
     <div id="person-update" class="box" style="display: none">
 				<!-- Box Head -->
 				<div class="box-head">
-					<h2>Update</h2>update
+					<h2>Update</h2>
 				</div>
 					<!-- End Box Head -->
 			<form action="" method="post">

@@ -5,6 +5,7 @@ class NewPerson(forms.Form):
     department = forms.CharField(max_length=50)
     title = forms.CharField(max_length=50)
     remark = forms.CharField(max_length=200)
+    password = forms.CharField(max_length=10)
     #status = forms.ChoiceField(widget=forms.Select(),choices=Status,initial=Status[0])
 
 class NewMission(forms.Form):
