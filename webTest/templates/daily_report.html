@@ -1,0 +1,89 @@
+{% extends "base.html" %}
+
+{% block tab %}
+    <li><a href="/person/"><span>Person</span></a></li>
+	<li><a href="/mission/"><span>Mission</span></a></li>
+    <li><a href="/report/" class="active"><span>Daily Report</span></a></li>
+{% endblock %}
+
+{% block content %}
+    <!-- Box -->
+	<div class="box">
+		<!-- Box Head -->
+		<div class="box-head">
+			<h2 class="left">Person Information</h2>
+			<div class="right">
+					<input type="submit" class="button" value="NewReport" onclick=show("report") />
+				</div>
+			</div>
+		<!-- End Box Head -->
+
+			<!-- Table -->
+			<div class="table">
+				<table width="100%" border="0" cellspacing="0" cellpadding="0">
+					<tr>
+						<th>id</th>
+                        <th>Date</th>
+						<th>Person Name</th>
+						<th>Report Order</th>
+                        <th>Content</th>
+                        <th>Mission</th>
+                        <th>Mission Order</th>
+					</tr>
+                    {% for r in reportlist %}
+                    <tr>
+                        <td>{{ r.id }}</td>
+                        <td>{{ r.date }}</td>
+                        <td>{{ r.name }}</td>
+                        <td>{{ r.order }}</td>
+                        <td>{{ r.content }}</td>
+                        <td>{{ r.missionName }}</td>
+                        <td>{{ r.missionOrder }}</td>
+                    </tr>
+                    {% endfor %}
+				</table>
+	</div>
+    <div id="report-hide" class="box" style="display: none">
+				<!-- Box Head -->
+				<div class="box-head">
+					<h2>New Report</h2>
+				</div>
+					<!-- End Box Head -->
+			<form action="" method="post">
+			<!-- Form -->
+				<div class="form">
+                    <input id="ordern" type="text" name="ordern" style="display: none" />
+                    <p><label>Date</label><input type="text" name="date" id="datepicker"></p>
+                    <p>
+                        <label>Person</label>
+                        <select id="name_select" name="name" >
+                            {% for p in person %}
+                            <option value={{ p.id }}>{{ p.name }}</option>
+                            {% endfor %}
+                        </select>
+                    </p>
+                    <p>
+                        <input type="button" onclick=newReport() value="new" />
+                        <input type="button" onclick=deleteReport() value="delete" />
+                    </p>
+                    <div id="sub_report">
+                        <!--<label>id:1</label>
+                        <p><textarea></textarea></p>
+                        <p>
+                            <label>Link Submission</label>
+                            <select>
+                                <option></option>
+                            </select>
+                        </p>-->
+                    </div>
+			    </div>
+				<!-- End Form -->
+				<!-- Form Buttons -->
+				<div class="buttons">
+					<input type="button" class="button" value="cancel" onclick=hide("report") />
+					<input type="submit" class="button" value="submit" />
+				</div>
+				<!-- End Form Buttons -->
+			</form>
+		</div>
+{% endblock %}

@@ -1,0 +1,167 @@
+{% extends "base.html" %}
+
+{% block tab %}
+    <li><a href="/person/"><span>Person</span></a></li>
+	<li><a href="/mission/" class="active"><span>Mission</span></a></li>
+    <li><a href="/report/"><span>Daily Report</span></a></li>
+{% endblock %}
+
+{% block content %}
+	<!-- Box -->
+	<div class="box">
+		<!-- Box Head -->
+		<div class="box-head">
+			<h2 class="left">Person Information</h2>
+			<div class="right">
+				<label>New Mission</label>
+					<input type="submit" class="button" value="new" onclick=show("mission") />
+				</div>
+			</div>
+		<!-- End Box Head -->
+
+			<!-- Table -->
+			<div class="table">
+				<table width="100%" border="0" cellspacing="0" cellpadding="0">
+					<tr>
+						<th>id</th>
+						<th>Name</th>
+						<th>Mission Remark</th>
+                        <th>SubMission Order</th>
+                        <th>Status</th>
+                        <th>Content</th>
+                        <th>Remark</th>
+                        <th>Link</th>
+                        <th width="110" class="ac">Content Control></th>
+                    </tr>
+                    {% for m in missionlist %}
+                    <tr>
+                        <td>{{ m.id }}</td>
+                        <td id="{{ m.id }}_name">{{ m.name }}</td>
+                        <td id="{{ m.id }}_remark">{{ m.remark }}</td>
+                        <td id="{{ m.id }}_order">{{ m.order }}</td>
+                        <td id="{{ m.id }}_{{ m.order }}_status">{{ m.status }}</td>
+                        <td id="{{ m.id }}_{{ m.order }}_content">{{ m.content }}</td>
+                        <td id="{{ m.id }}_{{ m.order }}_subremark">{{ m.subremark }}</td>
+                        <td>
+                            <a class="link" href="http://127.0.0.1:8000/person/?mission={{ m.id }}&order={{ m.order }}">Person</a>
+                            <a class="link" href="http://127.0.0.1:8000/report/?mission={{ m.id }}&order={{ m.order }}">Report</a>
+                        </td>
+                        <td>
+                            <a id={{ m.id }} class="ico edit mission" onclick=editSub({{ m.id }},{{ m.order }}) >Edit</a>
+                            <a onclick=newSub({{ m.id }})>Add</a>
+                        </td>
+                    </tr>
+                    {% endfor %}
+				</table>
+	</div>
+	<!-- Table -->
+    <!-- Box -->
+			<div id="mission-hide" class="box" style="display: none">
+				<!-- Box Head -->
+				<div class="box-head">
+					<h2>New Mission</h2>
+				</div>
+					<!-- End Box Head -->
+			<form action="" method="post">
+			<!-- Form -->
+				<div class="form">
+                    {{ form.as_p }}
+			    </div>
+				<!-- End Form -->
+				<!-- Form Buttons -->
+				<div class="buttons">
+					<input type="button" class="button" value="cancel" onclick=hide("mission") />
+					<input type="submit" class="button" value="submit" />
+				</div>
+				<!-- End Form Buttons -->
+			</form>
+		</div>
+		<!-- End Box -->
+    <!-- Box -->
+			<div id="submission-hide" class="box" style="display: none">
+				<!-- Box Head -->
+				<div class="box-head">
+					<h2>New Submission</h2>
+				</div>
+					<!-- End Box Head -->
+			<form action="" method="post">
+			<!-- Form -->
+				<div class="form">
+					{{ subform.as_p }}
+                    <p>
+                        <label>Link Person</label>
+                        <select id="id_person" name="person">
+                            {% for p in personList %}
+                            <option value="{{ p.id }}">{{ p.name }}</option>
+                            {% endfor %}
+                        </select>
+                    </p>
+			    </div>
+				<!-- End Form -->
+				<!-- Form Buttons -->
+				<div class="buttons">
+					<input type="button" class="button" onclick=hide("submission") value="cancel" />
+					<input type="submit" class="button" value="submit" />
+				</div>
+				<!-- End Form Buttons -->
+			</form>
+		</div>
+		<!-- End Box -->
+    <div id="submission-update" class="box" style="display: none">
+				<!-- Box Head -->
+				<div class="box-head">
+					<h2>Edit</h2>
+				</div>
+					<!-- End Box Head -->
+			<form action="" method="post">
+			<!-- Form -->
+				<div class="form">
+                    <p>
+                        <label>MissionID</label>
+                        <input id="id_mission_id" type="text" name="mission_id" />
+                    </p>
+                    <p>
+                        <label>Name</label>
+                        <input id="id_name" type="text" name="name" />
+                    </p>
+                    <p>
+                        <label>Mission remark</label>
+                        <input id="id_mremark" type="text" name="mremark" />
+                    </p>
+                    <p>
+                        <label>Submission Order</label>
+                        <input id="id_order" type="text" name="order" />
+                    </p>
+                    <p>
+                        <label>Content</label>
+                        <input id="id_content" type="text" name="content" />
+                    </p>
+                    <p>
+                        <label>Status</label>
+                        <select id="id_status" name="status">
+                        {% for s in substatus %}
+                            <option id="{{ s.id }}_option" value="{{ s.id }}">{{ s.status }}</option>
+                        {% endfor %}
+                        </select>
+                    </p>
+                    <p>
+                        <label>Submission Remark</label>
+                        <input id="id_sremark" type="text" name="sremark" />
+                    </p>
+                    <!--<p>
+                        <label>Link Person</label>
+                        <select id="id_linkperson" name="person">
+
+                        </select>
+                    </p>-->
+			    </div>
+				<!-- End Form -->
+				<!-- Form Buttons -->
+				<div class="buttons">
+					<input type="button" class="button" value="cancel" onclick=Uhide("submission") />
+					<input type="submit" class="button" value="submit" />
+				</div>
+				<!-- End Form Buttons -->
+			</form>
+		</div>
+{% endblock %}

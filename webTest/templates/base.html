@@ -1,0 +1,63 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+	<title>Task Management</title>
+	<link rel="stylesheet" href="/static/style.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="/static/jquery-ui.min.css" type="text/css" media="all" />
+    <script type="text/javascript" src="/static/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="/static/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="/static/web.js"></script>
+</head>
+<body>
+<!-- Header -->
+<div id="header">
+	<div class="shell">
+		<!-- Logo + Top Nav -->
+		<div id="top">
+			<h1><a href="#">Task Management</a></h1>
+			<div id="top-navigation">
+				Welcome <a href="#"><strong>Administrator</strong></a>
+				<span>|</span>
+				<a href="#">Log out</a>
+			</div>
+		</div>
+		<!-- End Logo + Top Nav -->
+
+		<!-- Main Nav -->
+		<div id="navigation">
+			<ul>
+			    {% block tab %}{% endblock %}
+			</ul>
+		</div>
+		<!-- End Main Nav -->
+	</div>
+</div>
+<!-- End Header -->
+<!-- Container -->
+<div id="container">
+	<div class="shell">
+		<div id="main">
+            <div id="content">
+            {% block content %}
+            {% endblock %}
+            </div>
+		</div>
+		<!-- Main -->
+	</div>
+</div>
+<!-- End Container -->
+
+<!-- Footer -->
+<div id="footer">
+	<div class="shell">
+		<span class="left">&copy; 2014 - Gome</span>
+		<span class="right">
+			Copyright @yangchunxue email:springsnow.yang@gmail.com
+        </span>
+	</div>
+</div>
+<!-- End Footer -->
+
+</body>
+</html>
