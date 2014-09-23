@@ -6,7 +6,7 @@
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://127.0.0.1:3306/webapp</jdbc-url>
       <user-name>root</user-name>
-      <user-password>dfcbdfdadfdedfd2df9edf92df9cdf93</user-password>
+      <user-password>dfd2dfdfdfcfdfd2dfdfdfcf</user-password>
       <libraries />
     </data-source>
   </component>

@@ -15,7 +15,7 @@
 	<div class="box">
 		<!-- Box Head -->
 		<div class="box-head">
-			<h2 class="left">Person Information</h2>
+			<h2 class="left">Mission Information</h2>
 			<div class="right">
                 {% if role == 'admin' %}
 				<label>New Mission</label>
@@ -54,7 +54,9 @@
                         </td>
                         <td>
                             <a id={{ m.id }} class="ico edit mission" onclick=editSub({{ m.id }},{{ m.order }}) >Edit</a>
+                            {% if role == 'admin' %}
                             <a onclick=newSub({{ m.id }})>Add</a>
+                            {% endif %}
                         </td>
                     </tr>
                     {% endfor %}
