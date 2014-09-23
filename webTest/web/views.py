@@ -20,6 +20,9 @@ def login(Request):
             '''%{"name":login_name}
             cursor.execute(sql)
             llist = cursor.fetchall()
+            if len(llist) == 0:
+                msg = "Wrong loginName,please log in again !"
+                return render_to_response('login.html',{'msg':msg})
             plist = []
             for l in llist:
                 d={"id":l[0],"pwd":l[1],"role":l[2]}
@@ -28,7 +31,6 @@ def login(Request):
             role = plist[0]["role"]
             mpwd = plist[0]["pwd"]
             value = hashlib.md5(pwd).hexdigest()
-            print value
             if mpwd == value:
                 Request.session['pid']=pid
                 Request.session['loginName']=login_name
@@ -70,9 +72,11 @@ def person(Request):
             if uid != '':
                 sql = '''update person set name='%(name)s',department='%(department)s',
                          title='%(title)s',remark='%(remark)s',`status`='%(status)s'
+                         password = '%(password)s'
                          where person_id = '%(id)s';
                 '''%{'id':uid,'name':name,'department':department,
-                     'title':title,'remark':remark,'status':status}
+                     'title':title,'remark':remark,'status':status,
+                     'password':password}
             else:
                 flag = 1
         if flag == 0:
