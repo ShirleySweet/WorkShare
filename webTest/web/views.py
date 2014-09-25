@@ -313,8 +313,8 @@ def daily_report(Request):
                 print value
 
             for i in range(1,n+1):
-                content = Request.POST.get('text_'+str(n),'')
-                mm_id = str(Request.POST.get('mission_'+str(n),''))
+                content = Request.POST.get('text_'+str(i),'')
+                mm_id = str(Request.POST.get('mission_'+str(i),''))
                 ml = mm_id.split('_')
                 m_id = int(ml[0])
                 order_id = int(ml[1])
