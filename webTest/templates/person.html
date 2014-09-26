@@ -47,8 +47,8 @@
                         <td id="{{ p.id }}_position">{{ p.position }}</td>
                         <td id="{{ p.id }}_remark">{{ p.remark }}</td>
                         <td>
-                            <a class="link" href="http://127.0.0.1:8000/mission/?person={{ p.id }}" >Mission</a>
-                            <a class="link" href="http://127.0.0.1:8000/report/?person={{ p.id }}">Report</a>
+                            <a class="link" href="/mission/?person={{ p.id }}" >Mission</a>
+                            <a class="link" href="/report/?person={{ p.id }}">Report</a>
                         <td>
                             <a id="person{{ p.id }}" onclick=editPerson({{ p.id }}) class="ico edit">Edit</a>
                         </td>

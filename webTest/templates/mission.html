@@ -49,8 +49,8 @@
                         <td id="{{ m.id }}_{{ m.order }}_content">{{ m.content }}</td>
                         <td id="{{ m.id }}_{{ m.order }}_subremark">{{ m.subremark }}</td>
                         <td>
-                            <a class="link" href="http://127.0.0.1:8000/person/?mission={{ m.id }}&order={{ m.order }}">Person</a>
-                            <a class="link" href="http://127.0.0.1:8000/report/?mission={{ m.id }}&order={{ m.order }}">Report</a>
+                            <a class="link" href="/person/?mission={{ m.id }}&order={{ m.order }}">Person</a>
+                            <a class="link" href="/report/?mission={{ m.id }}&order={{ m.order }}">Report</a>
                         </td>
                         <td>
                             <a id={{ m.id }} class="ico edit mission" onclick=editSub({{ m.id }},{{ m.order }}) >Edit</a>

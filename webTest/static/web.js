@@ -90,7 +90,7 @@ function deleteReport(){
 };
 
 function getOption(pid,sid){
-    $.ajax("http://127.0.0.1:8000/load/",{
+    $.ajax("/load/",{
         dateType:"json",
         type:"get",
         data:{
