@@ -74,7 +74,7 @@ h3 a{ text-decoration: none; }
 
 
 #main {}
-#content { float:left; width:1000px; }
+#content { width:1000px; }
 #sidebar { float:right; width:225px; }
 
 
